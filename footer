@@ -1,0 +1,15 @@
+<View style={styles.footer}>
+        <TouchableOpacity onPress={() => navigation.navigate('PesquisarScreen')}>
+          <Image source={require('./assets/icons/pesquisarImg.png')} style={styles.footerIcon} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('NetworkingScreen')}>
+          <Image source={require('./assets/icons/slaImg.png')} style={styles.footerIcon} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('TelaInicial')}>
+          <Image source={require('./assets/icons/homeImg.png')} style={styles.footerIcon} />
+        </TouchableOpacity>
+        <Image source={require('./assets/icons/notificationImg.png')} style={styles.footerIcon} />
+        <TouchableOpacity onPress={() => navigation.navigate('UsuariosConversas')}>
+          <Image source={require('./assets/icons/messageImg.png')} style={styles.footerIcon} />
+        </TouchableOpacity>
+      </View>
